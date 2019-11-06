@@ -1,0 +1,59 @@
+body {
+  font-family: courier;
+  color: white;
+  background-image: url("milktea2.jpg");
+  background-size: cover;
+  margin-top: 80px;
+}
+.textcont{
+
+}
+.imgcont {
+
+}
+.maincontainer {
+  padding: 20px;
+  justify-content: center;
+  height: 160px;
+}
+.nav {
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 80px;
+  float: center;
+  flex-direction: row;
+  display: inline-block;
+  text-align: center;
+}
+.nav ul li {
+  display: inline-block;
+  height: 120px;
+  width: 120px;
+  background: white;
+  color: blue;
+  float: center;
+  opacity: .8;
+  border-radius: 50%;
+  color: DarkOliveGreen;
+  font-size: 20px;
+}
+
+.nav ul li:hover {
+  opacity: 1;
+
+
+h1 {
+  color: Salmon;
+
+}
+
+#paral {
+  color: olive;
+}
+#para2 {
+  color:blue;
+}
