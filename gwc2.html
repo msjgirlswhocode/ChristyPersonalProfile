@@ -29,4 +29,24 @@
     <img src="cat-slider4.png" height='400px'alt="milk tea photo"/>
   </div>
   </body>
+
+  <body>
+  <input id="nameofperson" type="text" placeholder="Enter your name here">
+  <br>
+  <button onclick=nameDisplay()> Name Display</button>
+  <br>
+  <div id="name"> </div>
+</body>
+
+<script>
+
+    var space = document.getElementById("name");
+    var nameofperson=document.getElementById("nameofperson");
+
+    function nameDisplay()
+      {
+        space.innerHTML= document.write("Hello " + nameofperson.value);
+      }
+</script>
+
 </html>
